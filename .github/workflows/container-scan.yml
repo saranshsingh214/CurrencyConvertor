@@ -19,7 +19,7 @@ jobs:
           accuknox_endpoint: ${{ secrets.ACCUKNOX_ENDPOINT }}
           accuknox_label: ${{ secrets.ACCUKNOX_LABEL }}
           accuknox_token: ${{ secrets.ACCUKNOX_TOKEN }}
-          image: "nginx"
+          image_name: "nginx"
           tag: "latest"            
 
           
