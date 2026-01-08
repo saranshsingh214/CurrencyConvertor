@@ -16,7 +16,7 @@ jobs:
         uses: accuknox/container-scan-action@latest
         with:
           soft_fail: true         # set false to fail workflow if vulnerabilities are found
-          accuknox_endpoint: ${{ secrets.ACCUKNOX_ENDPOINT }}
+          accuknox_endpoint: "https://app.demo.accuknox.com"
           accuknox_label: ${{ secrets.ACCUKNOX_LABEL }}
           accuknox_token: ${{ secrets.ACCUKNOX_TOKEN }}
           image_name: "nginx"
